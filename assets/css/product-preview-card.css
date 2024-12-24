@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    background-color:rgba(242, 234, 226, 1);
+    padding-left: 420px;
+    padding-top: 152px;
+    padding-bottom: 152px;
+    
+}
+.description {
+    width: 600px;
+    height: 450px;
+    top: 175px;
+    left: 420px;
+    gap: 0px;
+    opacity: 0px;
+   
+
+}
+.description img {
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.border {
+    width: 600px;
+    height: 450px;
+    border: 0px solid  rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    background-color:  rgba(255, 255, 255, 1);
+    
+}
+
+.border h3 {
+    margin-left: 332px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.border h1 {
+   
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 332px;
+    margin-bottom: 24px;
+}
+
+.border p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    margin-left: 332px;
+    margin-bottom: 29px;
+}
+.price p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(61, 129, 104, 1);
+    padding-bottom: 25px;
+}
+.price span {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(108, 114, 137, 1);
+}
+.border a {
+    width: 236px;
+    background-image: url(/assets/img/sepeticon.png);
+    background-repeat: no-repeat;
+    background-position: 47px 16px;
+    background-color:  rgba(61, 129, 104, 1);
+    color:  rgba(255, 255, 255, 1);
+    margin-left: 36px;
+    padding-left: 62px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 62px; 
+    text-decoration: none;
+    border-radius: 8px;
+    
+
+}
